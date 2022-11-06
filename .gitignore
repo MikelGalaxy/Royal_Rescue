@@ -1,0 +1,12 @@
+.vs
+Library
+Thumbs.db
+*.obj
+*.exe
+*.pdb
+*.cache
+obj/Debug
+obj
+obj/
+TextMesh Pro
+Temp
