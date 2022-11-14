@@ -1,8 +1,7 @@
 ﻿namespace Assets.Scripts.Models
 {
-    public class Armor : BaseEntity
+    public class Armor : Wearable
     {
-        public int Defence;
-        public int Weight;
+        public int ArmorLevel;
     }
 }

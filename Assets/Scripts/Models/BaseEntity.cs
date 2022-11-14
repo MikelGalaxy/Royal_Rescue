@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 
 namespace Assets.Scripts.Models
 {
-    public class BaseEntity : MonoBehaviour
+    [Serializable]
+    public class BaseEntity
     {
         public string Id;
         public string Name;

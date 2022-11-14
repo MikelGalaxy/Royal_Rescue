@@ -1,13 +1,12 @@
 using Assets.Scripts.Enums;
+using System;
 
 namespace Assets.Scripts.Models
 {
-    public class Weapon : BaseEntity
+    [Serializable]
+    public class Weapon : Wearable
     {
         public WeaponType WeaponType;
         public int WeaponLevel;
-        public int Attack;
-        public int Defence;
-        public int Weight;
     }
 }

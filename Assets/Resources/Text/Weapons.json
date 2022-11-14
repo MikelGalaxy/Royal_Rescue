@@ -1,0 +1,25 @@
+{
+  "weapons": [ 
+  {
+    "id": "sword_01",
+    "name": "Sword",
+    "resourceName": "sword",
+    "attack": 5,
+    "defense": 2,
+    "weight": 1,
+    "weaponLevel": 3,
+    "weaponType": "OneHandedSword"
+  },
+  {
+    "id": "sword_02",
+    "name": "Longsword",
+    "resourceName": "longsword",
+    "attack": 26,
+    "defense": 4,
+    "weight": 6,
+    "weaponLevel": 6,
+    "weaponType": "TwoHandedSword"
+  }
+  ]
+  
+}

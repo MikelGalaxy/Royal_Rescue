@@ -14,7 +14,7 @@ namespace Assets.Scripts.Ui.Shared
         public SlotType SlotType;
 
         protected string EntityId;
-        // Start is called before the first frame update
+
         void Start()
         {
             DisplayEmpty();

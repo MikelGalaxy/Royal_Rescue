@@ -1,5 +1,7 @@
 .vs
 Library
+Logs
+Logs/
 Thumbs.db
 *.obj
 *.exe
@@ -10,3 +12,5 @@ obj
 obj/
 TextMesh Pro
 Temp
+
+
