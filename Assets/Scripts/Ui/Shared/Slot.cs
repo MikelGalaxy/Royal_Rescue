@@ -15,7 +15,7 @@ namespace Assets.Scripts.Ui.Shared
 
         protected string EntityId;
 
-        void Start()
+        void Awake()
         {
             DisplayEmpty();
         }
@@ -32,7 +32,7 @@ namespace Assets.Scripts.Ui.Shared
             LoadImage(SlotType, "background");
         }
 
-        protected void Display(BaseEntity BaseEntity, int amount = 0)
+        public void Display(BaseEntity BaseEntity, int amount = 0)
         {
             if (amount != 0)
             {

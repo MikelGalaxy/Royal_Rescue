@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Models\Wearable.cs" />
     <Compile Include="Assets\Scripts\Models\BaseEntity.cs" />
     <Compile Include="Assets\Scripts\Models\Armor.cs" />
     <Compile Include="Assets\Scripts\Models\Item.cs" />
@@ -63,16 +64,17 @@
     <Compile Include="Assets\Scripts\Helpers\EnumHelper.cs" />
     <Compile Include="Assets\Scripts\Enums\ConsumableType.cs" />
     <Compile Include="Assets\Scripts\Models\Consumable.cs" />
+    <Compile Include="Assets\Scripts\Dtos\WeaponsJson.cs" />
+    <Compile Include="Assets\Scripts\Helpers\LowercaseContractResolver.cs" />
     <Compile Include="Assets\Scripts\Dtos\Conversation.cs" />
     <Compile Include="Assets\Scripts\Models\Weapon.cs" />
     <Compile Include="Assets\Scripts\Enums\WeaponType.cs" />
     <Compile Include="Assets\Scripts\Helpers\ResourcesHelper.cs" />
     <Compile Include="Assets\Scripts\Enums\SlotType.cs" />
-    <Compile Include="Assets\Scripts\Models\Wearable.cs" />
-    <Compile Include="Assets\Scripts\Controllers\ItemController.cs" />
-    <Compile Include="Assets\Scripts\Dtos\WeaponsJson.cs" />
-    <Compile Include="Assets\Scripts\Helpers\LowercaseContractResolver.cs" />
     <Compile Include="Assets\Scripts\Mappers\ItemMapper.cs" />
+    <Compile Include="Assets\Scripts\Controllers\ItemController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\UiController.cs" />
+    <Compile Include="Assets\Scripts\Ui\CharacterWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -1,25 +1,77 @@
 {
-  "weapons": [ 
-  {
-    "id": "sword_01",
-    "name": "Sword",
-    "resourceName": "sword",
-    "attack": 5,
-    "defense": 2,
-    "weight": 1,
-    "weaponLevel": 3,
-    "weaponType": "OneHandedSword"
-  },
-  {
-    "id": "sword_02",
-    "name": "Longsword",
-    "resourceName": "longsword",
-    "attack": 26,
-    "defense": 4,
-    "weight": 6,
-    "weaponLevel": 6,
-    "weaponType": "TwoHandedSword"
-  }
-  ]
-  
+    "weapons": [{
+            "id": "sword_01",
+            "name": "Old Sword",
+            "resourceName": "sword",
+            "attack": 5,
+            "defense": 2,
+            "weight": 1,
+            "weaponLevel": 1,
+            "weaponType": "OneHandedSword"
+        }, {
+            "id": "sword_02",
+            "name": "Bronze Sword",
+            "resourceName": "bronzeSword",
+            "attack": 5,
+            "defense": 2,
+            "weight": 1,
+            "weaponLevel": 2,
+            "weaponType": "OneHandedSword"
+        }, {
+            "id": "sword_03",
+            "name": "Viking Sword",
+            "resourceName": "vikingSword",
+            "attack": 5,
+            "defense": 2,
+            "weight": 1,
+            "weaponLevel": 3,
+            "weaponType": "OneHandedSword"
+        }, {
+            "id": "sword_04",
+            "name": "Short Broadsword",
+            "resourceName": "broadSword",
+            "attack": 5,
+            "defense": 2,
+            "weight": 1,
+            "weaponLevel": 4,
+            "weaponType": "OneHandedSword"
+        }, {
+            "id": "sword_05",
+            "name": "Sword",
+            "resourceName": "sword",
+            "attack": 5,
+            "defense": 2,
+            "weight": 1,
+            "weaponLevel": 5,
+            "weaponType": "OneHandedSword"
+        }, {
+            "id": "twohanded_sword_20",
+            "name": "Old Broadsword",
+            "resourceName": "broadSword",
+            "attack": 26,
+            "defense": 4,
+            "weight": 6,
+            "weaponLevel": 1,
+            "weaponType": "TwoHandedSword"
+        }, {
+            "id": "twohanded_sword_21",
+            "name": "Longsword",
+            "resourceName": "longsword",
+            "attack": 26,
+            "defense": 4,
+            "weight": 6,
+            "weaponLevel": 2,
+            "weaponType": "TwoHandedSword"
+        }, {
+            "id": "twohanded_sword_22",
+            "name": "Engraved Longsword",
+            "resourceName": "engravedLongsword",
+            "attack": 26,
+            "defense": 4,
+            "weight": 6,
+            "weaponLevel": 3,
+            "weaponType": "TwoHandedSword"
+        }
+    ]
+
 }
