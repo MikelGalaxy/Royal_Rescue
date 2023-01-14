@@ -1,0 +1,23 @@
+{
+    "armors": [{
+            "id": "armor_01",
+            "name": "Old Leather Armor",
+            "resourceName": "oldLeatherArmor",
+            "attack": 0,
+            "defense": 3,
+            "weight": 6,
+            "armorLevel": 1,
+            "armorType": "BodyArmor"
+        }, {
+            "id": "armor_02",
+            "name": "Leather Armor",
+            "resourceName": "leatherArmor",
+            "attack": 0,
+            "defense": 5,
+            "weight": 5,
+            "armorLevel": 2,
+            "armorType": "BodyArmor"
+        }
+    ]
+
+}

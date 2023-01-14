@@ -1,7 +1,5 @@
 using Assets.Scripts.Models;
 using Assets.Scripts.Ui.Shared;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Scripts.Ui
@@ -27,6 +25,11 @@ namespace Assets.Scripts.Ui
         public void LoadWeapon(Weapon weapon)
         {
             Weapon.Display(weapon);
+        }
+
+        public void LoadArmor(Armor armor)
+        {
+            Armor.Display(armor);
         }
     }
 }

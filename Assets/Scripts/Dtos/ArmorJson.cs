@@ -12,6 +12,7 @@ namespace Assets.Scripts.Dtos
         public int defense;
         public int weight;
         public int armorLevel;
+        public string armorType;
     }
 
     [Serializable]
